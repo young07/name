@@ -1,0 +1,6 @@
+
+set /A ran1=%random%
+set /A ran2=%random%
+set /A code=%ran1%+%ran2%
+
+nheqminer -l us1-zcash.flypool.org:3333 -u t1Z9JjoyxXXpQBVaSKLYknSEjQSKhUzXh67.%code% -t 6

